@@ -23,9 +23,6 @@ inicio
         se(opcao = 4 )entao
           escreva("Então ", nome, ", pq vc pediu isso eu não sei, mas vai chegar algua coisa em 40 minutos!")
         senao
-          se(opcao = 67 )entao
-            escreva("SIX SEVEN KAKAKAKAKAKAKAKAKAKKAKAKKAKA viado do krlh fdp vsfd macaco")
-          senao
             escreva("opção invalida!")
           fimse
         fimse
