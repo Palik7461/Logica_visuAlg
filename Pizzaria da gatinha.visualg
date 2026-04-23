@@ -1,0 +1,36 @@
+algoritmo "Pizzzaria da gatinha"
+
+var
+  opcao: real
+  nome: caractere
+
+inicio
+
+  escreval("Boa noite! Bem vindo a Pizzaria da gatinha, qual o seu nome?")
+  leia(nome)
+  escreval("Olá ", nome, ", escolha o sabor da sua pizza:")
+  escreval("1-Pizzaiolo, 2-Carne com queijo, 3-4 Queijos, 4-sla")
+  leia(opcao)
+  se(opcao = 1 )entao
+    escreva("Pizzaiolo, seu pedido chegara em 40 minutos!")
+  senao
+    se(opcao = 2 )entao
+      escreva("Carne com queijo, seu pedido chegara em 40 minutos!")
+    senao
+      se(opcao = 3 )entao
+        escreva("4 queijos, seu pedido chegara em 40 minutos!")
+      senao
+        se(opcao = 4 )entao
+          escreva("Então ", nome, ", pq vc pediu isso eu não sei, mas vai chegar algua coisa em 40 minutos!")
+        senao
+          se(opcao = 67 )entao
+            escreva("SIX SEVEN KAKAKAKAKAKAKAKAKAKKAKAKKAKA viado do krlh fdp vsfd macaco")
+          senao
+            escreva("opção invalida!")
+          fimse
+        fimse
+      fimse
+    fimse
+  fimse
+
+fimalgoritmo

@@ -1,0 +1,29 @@
+algoritmo "quebrando o tabu"
+
+var
+  opcao: real
+  nome: caractere
+
+inicio
+
+  escreval("Boa noite! tabuadinha da xuxa ao seu dispor, qual seu nome?")
+  leia(nome)
+  escreval("Então benção de pessoa chamada ", nome, " me diga um numero de 1 a 10 ou pague a versão premium para mais opcões ;)")
+  leia(opcao)
+  escolha opcao
+    caso 1,2,3,4,5,6,7,8,9,10
+      escreval("Tabuada do ", opcao,)
+      escreval(opcao, " X 1 = ", opcao *1)
+      escreval(opcao, " X 2 = ", opcao *2)
+      escreval(opcao, " X 3 = ", opcao *3)
+      escreval(opcao, " X 4 = ", opcao *4)
+      escreval(opcao, " X 5 = ", opcao *5)
+      escreval(opcao, " X 6 = ", opcao *6)
+      escreval(opcao, " X 7 = ", opcao *7)
+      escreval(opcao, " X 8 = ", opcao *8)
+      escreval(opcao, " X 9 = ", opcao *9)
+      escreval(opcao, " X 10 = ", opcao *10)
+    outrocaso
+      escreval("Você não pagou a versão premium da tabuadinha da xuxa, burro")
+  fimescolha
+fimalgoritmo

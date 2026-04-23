@@ -1,0 +1,13 @@
+algoritmo "lanames"
+
+var
+  dia: caractere
+  nome: caractere
+
+inicio
+
+  escreval("Boa noite!, qual seu nome?")
+  leia(nome)
+  escreval("Fala, ", nome, ", me fala um dia da semana que eu vou dizer qual será o próximo!")
+  leia(dia)
+  caso 

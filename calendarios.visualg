@@ -1,0 +1,31 @@
+algoritmo "Calendiarios"
+
+var
+  dia: real
+  nome: caractere
+
+inicio
+
+  escreval("Boa noite! vc é burro o suficiente pra não saber o nome do dia da semana? Posso te ajudar com isso! qual o seu nome?")
+  leia(nome)
+  escreval("Olá ", nome, ", me diga um número de 1 a 7 (semana tem 7 dias caso vc não saiba, animal)")
+  leia(dia)
+  escolha dia
+    caso 1
+      escreval("domingão do faustão")
+    caso 2
+      escreval("segundinha nojenta")
+    caso 3
+      escreval("terça-feira")
+    caso 4
+      escreval("dia da feijuca papae, quarta")
+    caso 5
+      escreval("quinta feira, nada de especial")
+    caso 6
+      escreval("sexta feira é igual mulher de calcinha, não é o que a gente quer mas é quase")
+    caso 7
+      escreval("SABADÃO MULEKE, DIA DA FEIJUCA PARTE 2!!")
+    outrocaso
+      escreval("c é burro ", nome, "? como vc escreveu um numero qeu NÃO ESTA ENTRE 1 E 7?! SEU JUMENTO!!")
+  fimescolha
+fimalgoritmo

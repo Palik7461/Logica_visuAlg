@@ -1,0 +1,38 @@
+algoritmo "amanha"
+
+var
+  dia: caractere
+
+inicio
+
+  escreval("escreva um dia da semana: ")
+  leia(dia)
+
+  escolha dia
+    caso "domingo"
+      escreval("amanhã é segunda sabosta")
+
+    caso "segunda"
+      escreval("amanhã é terça")
+
+    caso "terca"
+      escreval("amanhã é quarta, dia da feijuca")
+
+    caso "quarta"
+      escreval("amanhã é quinta")
+
+    caso "quinta"
+      escreval(" amanhã sextou bb ;)")
+
+    caso "sexta"
+      escreval("amanhã é sabado, feijuca part.2")
+
+    caso "sabado"
+      escreval("amanhã é só lasanha e domingão do hulk")
+
+    outrocaso
+      escreval("escreveu errado, pateta")
+
+  fimescolha
+
+fimalgoritmo
